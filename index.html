@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Color picker app which generate color scheme based on the color picked by the user from with the help of API. Easy to use and generate five colors based on the mode selected." >
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+
+        <!-- Color Scheme picker header -->
+        <div class="header">
+            <input type="color" id="color-picker" aria-label="Choose a color">
+            <select name="selectedMode" id="mode-select" class="mode-select" aria-label="Mode select">
+                <option value="monochrome" aria-selected="true">Monochrome</option>
+                <option value="monochrome-dark" aria-selected="false">Monochrome-dark</option>
+                <option value="monochrome-light" aria-selected="false">Monochrome-light</option>
+                <option value="analogic" aria-selected="false">Analogic</option>
+                <option value="complement" aria-selected="false">Complement</option>
+                <option value="analogic-complement" aria-selected="false">Analogic-complement</option>
+                <option value="triad" aria-selected="false">Triad</option>
+                <option value="quad" aria-selected="false">Quad</option>
+            </select>
+            <!-- get color scheme button -->
+            <button id="get-scheme" class="get-scheme-btn">Get color scheme</button>
+        </div>
+
+        <!-- color container -->
+        <div class="colors-container" id="colors-container">
+            <!-- <div class="color-code-container">
+                <div class="color" id="color-1"></div>
+                <span class="color-code"></span>
+            </div> -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
