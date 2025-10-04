@@ -29,7 +29,7 @@ body {
     background: linear-gradient(to right, #414345, #232526); 
     background-repeat: no-repeat;
     max-width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -165,11 +165,6 @@ select:open::picker-icon {
     display: none;
 }
 
-.tooltip {
-    /* position: relative; */
-    display: inline-block;
-}
-
 .tooltiptext {
     visibility: hidden; 
     font-family: "SF pro regular";
@@ -223,4 +218,35 @@ div.color:focus .clipboard {
 .color-code {
     display: inline-block;
     margin-top: 1em;
+}
+
+@media (max-width: 550px) {
+    body {
+        height: 680px;
+    }
+    .main-container {
+        width: 100vw;
+        height: auto;   
+    }
+
+    .header {
+        flex-direction: column;
+        gap: 1em;
+    }
+
+    .mode-select {
+        order: -1;
+    }
+
+    .colors-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, 1fr);
+        margin-right: 1em;
+        margin-left: 1em;
+        padding-bottom: 2em;
+    }
+
+    .tooltiptext {
+        left: 42%;
+    }
 }
