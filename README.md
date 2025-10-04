@@ -1,3 +1,10 @@
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow) 
+![HTML](https://img.shields.io/badge/HTML-blue)
+![CSS](https://img.shields.io/badge/CSS-orange)
+
+
+
+
 #Color Scheme Generator
 
 
