@@ -23,13 +23,6 @@ It generates five colors, and there are eight modes available.
 5. You can copy the color HEX code by clicking on the color or directly copy the code given below each color.
 
 
-## Technologies Used
-
-* HTML  
-* CSS  
-* Javascript  
-
-
 ### What I Learned?
 
 
