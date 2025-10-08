@@ -1,6 +1,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-yellow) 
 ![HTML](https://img.shields.io/badge/HTML-blue)
 ![CSS](https://img.shields.io/badge/CSS-orange)
+![RESTful API](https://img.shields.io/badge/RESTful_API-green)
 
 
 
@@ -11,7 +12,7 @@
 ### What this app does? 
 
 
-This application uses public Color API to generate color schemes based on the color and mode selected. 
+This application uses public [Color API](https://www.thecolorapi.com/) to generate color schemes based on the color and mode selected. 
 It generates five colors, and there are eight modes available. 
 
 ### How to use:
